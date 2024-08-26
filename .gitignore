@@ -1,0 +1,28 @@
+# Ignore DS_Store files (macOS)
+.DS_Store
+
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment files and virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+ENV.bak/
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter Notebook metadata
+*.ipynb-meta
+
+# Ignore VS Code settings and workspace files
+.vscode/
+*.code-workspace
+
+# Ignore logs
